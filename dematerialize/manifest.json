@@ -1,15 +1,13 @@
 {
     "manifest_version": 2,
-
     "name": "Dematerialize",
     "description": "Removes animation spam and other annoyances from websites.",
     "version": "1.0",
-
     "browser_action": {
-     "default_icon": "icon.png",
-     "default_popup": "popup.html"
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
     },
     "permissions": [
         "activeTab"
-     ]
-  }
+    ]
+}
